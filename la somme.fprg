@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 10:49:27 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC0yNUc0MjNVOzIwMjEtMTAtMTI7IjEwOjMzOjM0ICI7MzAyMw=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC0yNUc0MjNVOzIwMjEtMTAtMTI7IjEwOjQ5OjI3ICI7MTszMTQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;donner le premier nombre&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Donner le deuxiem nombre&quot;" newline="True"/>
+            <input variable="B"/>
+            <assign variable="C" expression="A+B"/>
+            <output expression="C" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
